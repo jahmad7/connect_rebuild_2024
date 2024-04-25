@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { LoginForm } from "./ui/login-form";
 
 export default async function Home() {
   return (

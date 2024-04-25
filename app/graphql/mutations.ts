@@ -4,6 +4,7 @@ export const LOGIN = gql`
     tokenAuth(username: $user, password: $pass) {
       token
       refreshToken
+      errors
       user {
         id
         firstName
